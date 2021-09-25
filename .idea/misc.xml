@@ -12,19 +12,17 @@
         <entry key="..\:/Users/HP/AndroidStudioProjects/Babysittingapp/app/src/main/res/layout/activity_main.xml" value="0.13360507246376813" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/Babysittingapp/app/src/main/res/layout/activity_nearby_babysitters.xml" value="0.20199275362318841" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/Babysittingapp/app/src/main/res/layout/alarm_row.xml" value="0.20199275362318841" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/Babysittingapp/app/src/main/res/layout/babysitter_list.xml" value="0.151268115942029" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/Babysittingapp/app/src/main/res/layout/doctor_list.xml" value="0.13020833333333334" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/Babysittingapp/app/src/main/res/layout/fragment_add_edit_alarm.xml" value="0.20199275362318841" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/Babysittingapp/app/src/main/res/layout/fragment_alarm_landing_page.xml" value="0.152" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/Babysittingapp/app/src/main/res/layout/fragment_doctors_page.xml" value="0.2" />
-        <entry key="..\:/Users/HP/AndroidStudioProjects/Babysittingapp/app/src/main/res/layout/fragment_main.xml" value="0.264" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/Babysittingapp/app/src/main/res/layout/fragment_main.xml" value="0.2" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/Babysittingapp/app/src/main/res/layout/fragment_nearby_babysitters.xml" value="0.152" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/Babysittingapp/app/src/main/res/menu/edit_alarm_menu.xml" value="0.176" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/Babysittingapp/app/src/main/res/menu/options_menu.xml" value="0.152" />
       </map>
     </option>
-  </component>
-  <component name="ProjectPlainTextFileTypeManager">
-    <file url="file://$PROJECT_DIR$/app/src/main/res/values-night/themes.xml" />
-    <file url="file://$PROJECT_DIR$/app/src/main/res/values/themes.xml" />
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />

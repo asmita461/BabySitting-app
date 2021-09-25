@@ -109,7 +109,7 @@ public final class AddEditAlarmActivity extends AppCompatActivity {
                 /**if(!mAlarmChanged){
                     NavUtils.navigateUpFromSameTask(AddEditAlarmActivity.this);
                     return true;
-                }*/
+                }**/
                 DialogInterface.OnClickListener discardButtonClickListener =
                         new DialogInterface.OnClickListener(){
 
@@ -157,7 +157,7 @@ public final class AddEditAlarmActivity extends AppCompatActivity {
         /**if(!mAlarmChanged){
             super.onBackPressed();
             return;
-        }*/
+        }**/
 
         DialogInterface.OnClickListener discardButtonClickListener =
                 new DialogInterface.OnClickListener(){

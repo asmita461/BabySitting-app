@@ -27,6 +27,12 @@ public class NearbyBabysitters extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_nearby_babysitters);
+        if (savedInstanceState == null) {
+            getSupportFragmentManager().beginTransaction()
+                    .setReorderingAllowed(true)
+                    .add(R.id.nearby_babysitters_frag_container, new NearbyBabysittersFragment(), null)
+                    .commit();
+        }
     }
 
 }
