@@ -101,15 +101,13 @@ public final class AddEditAlarmActivity extends AppCompatActivity {
         return getString(titleResId);
     }
 
-    @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-
         switch (item.getItemId()) {
             case android.R.id.home:
                 /**if(!mAlarmChanged){
-                    NavUtils.navigateUpFromSameTask(AddEditAlarmActivity.this);
-                    return true;
-                }**/
+                 NavUtils.navigateUpFromSameTask(AddEditAlarmActivity.this);
+                 return true;
+                 }**/
                 DialogInterface.OnClickListener discardButtonClickListener =
                         new DialogInterface.OnClickListener(){
 
@@ -121,7 +119,6 @@ public final class AddEditAlarmActivity extends AppCompatActivity {
                 showUnsavedChangesDialog(discardButtonClickListener);
                 return true;
         }
-
         return super.onOptionsItemSelected(item);
     }
 
@@ -130,7 +127,6 @@ public final class AddEditAlarmActivity extends AppCompatActivity {
         i.putExtra(MODE_EXTRA, mode);
         return i;
     }
-
 
     private void showUnsavedChangesDialog(
             DialogInterface.OnClickListener discardButtonClickListener) {
@@ -155,9 +151,9 @@ public final class AddEditAlarmActivity extends AppCompatActivity {
 
     public void onBackPressed(){
         /**if(!mAlarmChanged){
-            super.onBackPressed();
-            return;
-        }**/
+         super.onBackPressed();
+         return;
+         }**/
 
         DialogInterface.OnClickListener discardButtonClickListener =
                 new DialogInterface.OnClickListener(){
@@ -169,5 +165,6 @@ public final class AddEditAlarmActivity extends AppCompatActivity {
                 };
         showUnsavedChangesDialog(discardButtonClickListener);
     }
+
 
 }

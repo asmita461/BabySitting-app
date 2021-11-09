@@ -16,48 +16,32 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/no_alarm"/>
+
         <TextView
             android:id="@+id/no_alarm"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
-            android:padding="20dp"
-            android:layout_marginTop="20dp"
             android:textSize="20dp"
-            android:text="NO ALARM SCHEDULED YET"
-            android:textColor="#000000"
-            android:textStyle="bold" />
+            android:text="No Alarm Scheduled Yet"
+            android:layout_alignBottom="@id/image"/>
 
         <TextView
             android:id="@+id/empty_view_info"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_alignBottom="@id/no_alarm"
-            android:layout_marginTop="50dp"
-            android:layout_marginBottom="-18dp"
+            android:paddingTop="32dp"
             android:gravity="center"
+            android:paddingBottom="16dp"
             android:text="Press the floating action button to add alarm!"
-            android:textColor="#000000"
-            android:textSize="16dp"
-            android:textStyle="bold" />
-
-        <ImageView
-            android:id="@+id/image"
-            android:layout_width="350dp"
-            android:layout_height="350dp"
-            android:layout_centerVertical="true"
-            android:layout_centerHorizontal="true"
-            android:src="@drawable/bg_main_frag"/>
-
-        <TextView
-            android:id="@+id/empty_view_quote"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_alignBottom="@id/image"
-            android:textAlignment="center"
-            android:padding="20dp"
-            android:text="@string/empty_view_text"
-            android:textColor="#FF4081"
             android:textSize="16dp"
             android:textStyle="bold" />
 

@@ -147,7 +147,7 @@ public final class AddEditAlarmFragment extends Fragment {
 
         Toast.makeText(getContext(), messageId, Toast.LENGTH_SHORT).show();
 
-        AlarmReceiver.setReminderAlarm(getContext(), alarm);
+            AlarmReceiver.setReminderAlarm(getContext(), alarm);
 
         getActivity().finish();
 

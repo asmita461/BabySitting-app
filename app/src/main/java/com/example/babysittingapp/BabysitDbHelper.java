@@ -41,7 +41,7 @@ public class BabysitDbHelper extends SQLiteOpenHelper {
         Log.d(BabysitDbHelper.LOG_TAG,".........bEFORE Created.......");
         // Create a String that contains the SQL statement to create the babysitters table
         String SQL_CREATE_BABYSITTERS_TABLE =  "CREATE TABLE " + BabysitterEntry.TABLE_NAME + " ("
-                + BabysitterEntry._ID + " INTEGER PRIMARY KEY AUTOINCREMENT, "
+                + BabysitterEntry._ID + " INTEGER PRIMARY KEY, "
                 +BabysitterEntry.COLUMN_BABYSITTER_NAME + " TEXT NOT NULL, "
                 +BabysitterEntry.COLUMN_ADDRESS + " TEXT, "
                 +BabysitterEntry.COLUMN_CONTACT + " TEXT, "
